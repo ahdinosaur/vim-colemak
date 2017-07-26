@@ -10,11 +10,13 @@
     if v:version < 700 | echohl WarningMsg | echo "colemak.vim: You need Vim version 7.0 or later." | echohl None | finish | endif
 " }}}
 " Up/down/left/right {{{
-    nnoremap h h|xnoremap h h|onoremap h h|
-    nnoremap n j|xnoremap n j|onoremap n j|
-    nnoremap e k|xnoremap e k|onoremap e k|
-    nnoremap i l|xnoremap i l|onoremap i l|
+    nnoremap n h|xnoremap n h|onoremap n h|
+    nnoremap e j|xnoremap e j|onoremap e j|
+    nnoremap i k|xnoremap i k|onoremap i k|
+    nnoremap o l|xnoremap o l|onoremap o l|
 " }}}
+" remap o (open new line) to h
+    nnoremap h o|xnoremap h o|onoremap h o|
 " Words forward/backward {{{
     " l/L = back word/WORD
     " u/U = end of word/WORD
