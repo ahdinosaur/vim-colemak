@@ -17,6 +17,7 @@
 " }}}
 " remap o (open new line) to h
     nnoremap h o|xnoremap h o|onoremap h o|
+    nnoremap H O|xnoremap H O|onoremap H O|
 " Words forward/backward {{{
     " l/L = back word/WORD
     " u/U = end of word/WORD
