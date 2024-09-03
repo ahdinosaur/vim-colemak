@@ -39,7 +39,7 @@ Colemak layout:                  |                 QWERTY layout:
 (c     )  <C-L> = <C-Left> (Back WORD)
 (c     )  <C-Y> = <C-Right> (Seems to equal forward WORD minus 1 character)
 
-(  n  x)  a = v (Visual)   A = V (Visual line)
+(  n  x)  a = v (Visual)   A = V (Visual line) <C-v> (Visual block)
 (  n   )  r = r (Replace)  R = R (Replace)
 (  n   )  s = i (Insert)   S = I (Insert before first non-blank of line)
 (  n   )  t = a (Append)   T = A (Append at end of line)
